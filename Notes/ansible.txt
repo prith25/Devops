@@ -1,0 +1,20 @@
+Ansible:
+
+Ansible helps in creating and managing
+1. IT automation : instructions are written to automate the IT professional's work
+2. Configuration management : Consistency of all systems in the infrastructure is maintained
+3. Automatic deployment : Applications are deployed automatically on a variety of environments
+
+Ansible Architecture:
+
+1. Setup a local machine and install Ansible. local machine will have all the instruction and power to control where we can push it to other nodes.
+
+2. Nodes are the systems to be configured. They are controlled by the local machine
+
+3. Local machine has module which is a collection of configuration code files. these configuration code files are called playbooks
+
+4. Local machine also has a second job which is to manage the inventory. inventory is a document that groups the nodes under specific labels
+
+Playbook:
+
+it is where we create the instructions that you write to define the architecture of your hardware. so the playbook is really just a set of instructions that configure the different nodes that you have and each of those set of instructions is written in a language called "yaml" <- a standard language used for configuration server environments
