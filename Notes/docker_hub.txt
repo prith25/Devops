@@ -1,0 +1,18 @@
+Docker hub:
+***********
+1. Remote repository for docker images
+
+2. Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+3. Docker containers that run on Docker Engine:
+
+i) Standard: Docker created the industry standard for containers, so they could be portable anywhere
+ii) Lightweight: Containers share the machine’s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs
+iii)Secure: Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry.
+if a machine is running 2 different docker containers, the process that are running in one docker is totally isolated that is running in other docker container.
+
+4. Containerization: way to package software in a format that can run isolated on a shared os
+
+5. Containers: Containers are packages which contains application with all its needs such as libraries and dependencies. it is an isolated, secured shipping box, which is produced or created when the docker image is run. 
+
+6. Docker image: contains set of read-only files. we can use the docker images to produce a docker container. it is composed of layered file system, needed to build a running docker container, basically the running instance of the image.
