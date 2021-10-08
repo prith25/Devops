@@ -1,6 +1,0 @@
-Kubernetes:
-***********
-
-1. it is a container orchestrator that helps make sure that each container is where it is supposed to be and that the containers can work together.
-
-2. it makes sure services are running smoothly the way an app developer wants
